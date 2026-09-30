@@ -34,7 +34,7 @@ double error;
 int lsp, rsp;
 int lfSpeed = 200;
 int currentSpeed = 150;
-int turnSpeed = 90;     // NEW: slower forward speed at sharp turns
+int turnSpeed = 80;     // NEW: slower forward speed at sharp turns
 int lastTurnDir = 0;    // NEW: 1 = line last seen on sensor 0 side, -1 = sensor 15 side
 int sensorWeight[16] = { 7, 6, 5, 4, 3, 2, 1, 0, 0, -1, -2, -3, -4, -5, -6, -7 };
 
